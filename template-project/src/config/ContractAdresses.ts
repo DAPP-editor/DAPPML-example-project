@@ -1,4 +1,4 @@
-import { IContractsAddresses } from "../types/config";
+import { IContractsAddresses } from "re-ether";
 
 const addresses: IContractsAddresses = {
   Local: {

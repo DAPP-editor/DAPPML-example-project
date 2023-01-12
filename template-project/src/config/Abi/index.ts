@@ -1,6 +1,6 @@
+import { IABI, IAbiCollection } from "re-ether";
 import ERC20 from "./ERC20.json";
 import ERC721 from "./ERC721.json";
-import { IABI, IAbiCollection } from "../../types/abi";
 import StakingContract from "./StakingContract.json";
 
 const abis: IAbiCollection = {

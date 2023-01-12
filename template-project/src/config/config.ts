@@ -1,4 +1,4 @@
-import { ChainEnum, IConf } from "../types/config";
+import { ChainEnum, IConf } from "re-ether";
 
 const conf: IConf = {
   Chain: ChainEnum.Etherium,

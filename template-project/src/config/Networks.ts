@@ -1,4 +1,4 @@
-import { INetworks } from "../index";
+import { INetworks } from "re-ether";
 
 const networks: INetworks = {
   Avalanche: {
