@@ -1,0 +1,47 @@
+.dialog {
+    width: fit-content;
+    height: 50vh;
+    padding: 20px;
+    justify-content: center;
+}
+
+.title {
+    justify-content: center;
+}
+
+.re-ether-connect-button {
+    color:white;
+	font-weight:bold;
+	text-transform:uppercase;
+	background:#7e7e7e;
+	text-align:center;
+	padding:15px 10px;
+	cursor:pointer;
+	transition:0.3s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black
+}
+
+
+.wallet-name {
+    transform: translateY(50%);
+    padding-left: 50px;
+}
+
+
+
+.re-ether-connect-button:hover{
+	background: #d2cc83;
+	color:white;
+	text-decoration:none;
+}
+
+.re-ether-connect-button:disabled{
+    cursor: inherit;
+	background: grey;
+	color:white;
+	text-decoration:none;
+}
