@@ -1,0 +1,3 @@
+updater/node_modules/*
+updater/dist/index.js
+updater/dist/index.js.map

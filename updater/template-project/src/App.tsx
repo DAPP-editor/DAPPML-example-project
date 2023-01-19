@@ -4,6 +4,7 @@ import { configuration } from "./config";
 import { Index } from "./app/app";
 
 function App() {
+  if (!Index) return <></>;
   return (
     <WalletProvider configuration={configuration}>
       <Index />

@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  app:
+    container_name: updatingDevServer
+    image: editor/template
+    build: 
+      context: .
+    ports:
+      - 8080:3000
+      - 443:443
+    environment:
+      - DOC_ID=0
+      - USER_ID=MVDPUyCQ5eZz8yXNybsJA9FLYS02

@@ -1,0 +1,3 @@
+docker build . -t editor/template
+
+docker container run --name updatingDevServer -p 8080:3000 -e  DOC_ID=0 -e USER_ID=MVDPUyCQ5eZz8yXNybsJA9FLYS02  editor/template

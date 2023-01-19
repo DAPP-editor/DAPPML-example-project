@@ -19,8 +19,27 @@ module.exports = function override(config, env) {
       Buffer: ["buffer", "Buffer"],
     }),
   ];
-  // console.log(config.resolve)
-  // console.log(config.plugins)
 
+  config.devServer = {
+    ...config.devServer,
+    client: {
+      overlay: false,
+      webSocketURL: {
+        port: 443,
+      },
+    },
+    watchFiles: {
+      options: {
+        atomic: true,
+        awaitWriteFinish: true,
+      },
+    },
+    hot: true,
+    host: "0.0.0.0",
+    watchOptions: {
+      poll: true, // Or you can set a value in milliseconds.
+    },
+  };
+  console.log(config);
   return config;
 };
